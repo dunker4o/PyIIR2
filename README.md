@@ -36,6 +36,12 @@ result = my_filter.filter(input)
 
 And repeat until finished.
 
+### Example
+
+Test.py script reads in an ECG dat file and filter out the 50Hz harmonic using a 4th order lowpass Chebyshev 2 filter. Simply clone the repository, run the script and observe the graphs to notice the diminished 50Hz harmonic and the cleaner ECG signal.
+
+Feel free to play around with it :)
+
 ### Function signatures
 
 All Bessel and Butterworth have the following function signatures:
