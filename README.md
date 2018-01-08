@@ -40,11 +40,9 @@ And repeat until finished.
 
 * **Borislav Gachev** - *Initial work* - [dunker4o](https://github.com/dunker4o)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [Open Source MIT](https://opensource.org/licenses/MIT) file for details
 
 ## Acknowledgments
 
