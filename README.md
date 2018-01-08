@@ -36,6 +36,22 @@ result = my_filter.filter(input)
 
 And repeat until finished.
 
+### Function signatures
+
+All Bessel and Butterworth have the following function signatures:
+```
+(order, cut_off, sampling_frequency)
+```
+except the band filters:
+```
+(order, cut_off1, cut_off2, sampling_frequency)
+```
+
+Both Chebyshev type filters have an extra parameter to specify the passband ripple or attenuation of the filter.
+```
+(order, ripple, cut_off1, cut_off2, sampling_frequency)
+```
+
 ## Authors
 
 * **Borislav Gachev** - *Initial work* - [dunker4o](https://github.com/dunker4o)
